@@ -1,5 +1,5 @@
 def instantiate_new_array
-  array.new 
+ array = [] 
 end 
 
 def array_with_two_elements
@@ -11,7 +11,7 @@ def first_element(array)
 end 
 
 def third_element(array)
-  array[4]
+  array[3]
 end 
 
 def last_element(array)
